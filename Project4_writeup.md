@@ -29,9 +29,6 @@ Then create a pipeline to perform following tasks:
 [image8]: ./output_images/finaloutput_test1.png "Detect lanes lines algorithm output -> Final unwarped image"
 [image9]: ./output_images/finaloutput_test4.png "Detect lanes lines algorithm output -> Final unwarped image"
 [image10]: ./output_images/finaloutput_test5.png "Detect lanes lines algorithm output -> Final unwarped image"
-[video1]: ./output_videos/result_project_video.mp4 "Result of project Video"
-[video2]: ./output_videos/result_challenge_video.mp4 "Result of challenge video"
-[video3]: ./output_videos/result_harder_challenge_video.mp4 "Result of harder challenge video"
 
 
 ## [Rubric](https://review.udacity.com/#!/rubrics/571/view) Points
@@ -131,7 +128,8 @@ I hope explanations inside the pipeline code cells would be sufficient.
 
 ####6. Provide an example image of your result plotted back down onto the road such that the lane area is identified clearly.
 
-Shown in previous section 4
+This is shown in previous section 4
+
 ---
 
 ###Pipeline (video)
@@ -139,7 +137,8 @@ Shown in previous section 4
 ####1. Provide a link to your final video output.  Your pipeline should perform reasonably well on the entire project video (wobbly lines are ok but no catastrophic failures that would cause the car to drive off the road!).
 
 Here's my project video result:
-![Project Video Output][video1]
+"Result of project Video"
+[video1](./output_videos/result_project_video.mp4)
 
 ---
 
@@ -154,5 +153,8 @@ I also performed the pipeline in both challenge videos and that led me to think 
 What it is doing essentially is masking the images in y direction or, literally speaking, how much away from us. I felt like depending on speed of car this factor can be be reduced which means that the depth of view will increase if car speed is fast as it is assumed that the roads will be like in highway so quite long and when the speed is slow the depth of view will decrease like in city where there are sharp turns and hence lanes can be see not for huge distance.
 
 So please see the results of challenge videos but I think this idea of changing factor can be automated if I know the speed of vehicle.
-![Challenge Video Output][video2]
-![Harder Challenge Video Output][video3]
+
+"Result of challenge video"
+[video2](./output_videos/result_challenge_video.mp4)
+"Result of harder challenge video"
+[video3](./output_videos/result_harder_challenge_video.mp4)
