@@ -29,9 +29,9 @@ Then create a pipeline to perform following tasks:
 [image8]: ./output_images/finaloutput_test1.png "Detect lanes lines algorithm output -> Final unwarped image"
 [image9]: ./output_images/finaloutput_test4.png "Detect lanes lines algorithm output -> Final unwarped image"
 [image10]: ./output_images/finaloutput_test5.png "Detect lanes lines algorithm output -> Final unwarped image"
-[video1]: ./result_project_video.mp4 "Result of project Video"
-[video2]: ./result_challenge_video.mp4 "Result of challenge video"
-[video3]: ./result_harder_challenge_video.mp4 "Result of harder challenge video"
+[video1]: ./output_videos/result_project_video.mp4 "Result of project Video"
+[video2]: ./output_videos/result_challenge_video.mp4 "Result of challenge video"
+[video3]: ./output_videos/result_harder_challenge_video.mp4 "Result of harder challenge video"
 
 
 ## [Rubric](https://review.udacity.com/#!/rubrics/571/view) Points
