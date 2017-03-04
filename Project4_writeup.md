@@ -39,7 +39,6 @@ Then create a pipeline to perform following tasks:
 
 ---
 
-You're reading it!
 ###Camera Calibration
 
 ####1. Briefly state how you computed the camera matrix and distortion coefficients. Provide an example of a distortion corrected calibration image.
@@ -124,7 +123,7 @@ Sample test images output from above functions:
 ####5. Describe how (and identify where in your code) you calculated the radius of curvature of the lane and the position of the vehicle with respect to center.
 
 I calculated the radius of curvature in the pipeline in IPython code cell 10 and 11.
-I also learned a great deal about class and how to use collections for smoothing the image. I would like to thank [Thomas Antony](https://github.com/thomasantony)for inspiring me to show how to use class for this project.
+I also learned a great deal about class and how to use collections for smoothing the image. I would like to thank [Thomas Antony](https://github.com/thomasantony) for inspiring me to show how to use class for this project.
 
 code cell 10 is where I define Lane class and its associated variables and methods.In this code cell and 11 the detection of lane lines and calculation of radius of curvature and position of vehicle with respect to center is done.
 
@@ -132,7 +131,7 @@ I hope explanations inside the pipeline code cells would be sufficient.
 
 ####6. Provide an example image of your result plotted back down onto the road such that the lane area is identified clearly.
 
-Shown in previous section ... #4#
+Shown in previous section 4
 ---
 
 ###Pipeline (video)
@@ -140,7 +139,7 @@ Shown in previous section ... #4#
 ####1. Provide a link to your final video output.  Your pipeline should perform reasonably well on the entire project video (wobbly lines are ok but no catastrophic failures that would cause the car to drive off the road!).
 
 Here's my project video result:
-![alt text][video1]
+![Project Video Output][video1]
 
 ---
 
@@ -155,5 +154,5 @@ I also performed the pipeline in both challenge videos and that led me to think 
 What it is doing essentially is masking the images in y direction or, literally speaking, how much away from us. I felt like depending on speed of car this factor can be be reduced which means that the depth of view will increase if car speed is fast as it is assumed that the roads will be like in highway so quite long and when the speed is slow the depth of view will decrease like in city where there are sharp turns and hence lanes can be see not for huge distance.
 
 So please see the results of challenge videos but I think this idea of changing factor can be automated if I know the speed of vehicle.
-![alt text][video2]
-![alt text][video3]
+![Challenge Video Output][video2]
+![Harder Challenge Video Output][video3]
